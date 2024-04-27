@@ -1,0 +1,8 @@
+name: VaultPlugin
+version: '${project.version}'
+main: ch.ksrminecraft.vaultplugin.VaultPlugin
+api-version: '1.20'
+commands:
+  kontostand:
+    description: Den Kontostand abrufen
+    aliases: [ks]
